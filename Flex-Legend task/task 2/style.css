@@ -1,0 +1,40 @@
+.main{
+    background-color: black;
+    max-width: 500px;
+    margin: auto;
+    border: 2px solid gold;
+    border-radius: 4px;
+    padding: 2em;
+    margin-top: 35px;
+}
+
+.topheading{
+    color: aqua;
+    text-shadow: 3px 3px 4px aqua;
+    font-weight: 600;
+}
+
+.text1{
+    color: aqua;
+}
+
+.text2{
+    color: white;
+}
+span{
+    color: gold;
+}
+
+.midheading{
+    color: aqua;
+}
+
+.history{
+    color: white;
+    text-align: justify;
+}
+
+.author{
+    text-align: right;
+
+}

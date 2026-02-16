@@ -1,0 +1,59 @@
+.mainborder {
+    max-width: 800px;
+    margin: auto;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.firstheading {
+    font-weight: 200;
+    color: aqua;
+}
+
+span {
+    font-weight: 700;
+    display: block;
+}
+
+.navlink {
+    display: inline;
+    display: flex;
+    list-style: none;
+    word-spacing: 20px;
+    border-top: 3px solid aqua;
+    border-bottom: 3px solid aqua;
+    padding: 7px;
+    justify-content: center;
+    gap: 3em;
+}
+
+
+a {
+    text-decoration: none;
+    color: aqua;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img {
+    display: flex;
+}
+
+.text {
+    text-align: center;
+    color: aqua;
+}
+.mainborder{
+    border: 3px solid aqua;
+}
+
+.img img{
+    width: 100%;
+}
+
+.main{
+    background-color: black;
+}
