@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #282c31;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.colour1 {
+    background-color: white;
+    color: black;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.colour2 {
+    background-color: #ff9b00;
+    color: white;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.colour3 {
+    background-color: #e53e44;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.colour4 {
+    background-color: #07b8c7;
+    color: white;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+th {
+    align-items: center;
+    border: transparent;
+    border-spacing: 5px;
+    padding: 10px;
+}
+
+th::first-line {
+    text-transform: uppercase;
+}
+
+th::first-line {
+    font-size: large;
+}
+
+td {
+    align-items: center;
+    text-align: left;
+    border: 1px solid #7d8186;
+    border-spacing: 6px;
+    padding: 12px;
+    color: white;
+}
+
+table {
+    align-items: center;
+    width: 50%;
+    font-size: large;
+    text-align: center;
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+button {
+    background-color: #e53e44;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 2px;
+    width: 80px;
+    height: 25px
+}
+
+button:hover {
+    transform: scale(1.2);
+    transition: 0.9s;
+    background-color: black;
+    color: gold;
+}
+
+.tick-icon {
+    font-size: 20px;
+    color: red;
+}
+
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+        font-size: small;
+        display: block;
+        overflow-x: auto;
+    }
+
+    body {
+        height: auto;
+        padding: 20px 0;
+    }
+}
